@@ -15,6 +15,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="72dp"
         android:text="@string/Chopp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,6 +27,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="40dp"
         android:text="@string/Pizza"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblChopp" />
 
@@ -37,6 +39,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="40dp"
         android:text="@string/Recheio"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblPizza" />
 
@@ -48,6 +51,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:text="@string/Pessoas"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblRecheio" />
 
@@ -115,6 +119,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="210dp"
         android:text="@string/Consumo"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPessoas" />
 
@@ -126,6 +131,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:text="@string/Serviço"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblConsumo1" />
 
@@ -137,6 +143,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:text="@string/Total"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblServico1" />
 
@@ -149,6 +156,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginBottom="45dp"
         android:text="@string/PorPessoa"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblTotal1" />
@@ -192,7 +200,6 @@
         android:text="____________________________"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblTotal1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toEndOf="@+id/lblTotal1" />
 
     <TextView
