@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         double Consumobuy = buychopp + buypizza + buyRecheio;
         double Servicobuy = Consumobuy / 10;
         double Totalbuy = Consumobuy + Servicobuy;
-        double Porpessoabuy = Totalbuy / Pessoas;
+        int Porpessoabuy = (int) (Totalbuy / Pessoas);
 
         lblConsumo2.setText(String.valueOf(Consumobuy));
         lblServico2.setText(String.valueOf(Servicobuy));
