@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Los Hermanos</string>
+    <string name="Chopp">Chopp</string>
+    <string name="Pizza">Pizza</string>
+    <string name="Recheio">Recheio</string>
+    <string name="Pessoas">Pessoas</string>
+    <string name="Serviço">Serviço</string>
+    <string name="Total">Total</string>
+    <string name="Consumo">Consumo</string>
+    <string name="PorPessoa">PorPessoa</string>
+    <string name="Calcular">Calcular</string>
+</resources>
